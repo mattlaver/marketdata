@@ -2,7 +2,6 @@ package marketdata
 
 import (
     "net/http"
-
     "github.com/gorilla/mux"
 )
 
