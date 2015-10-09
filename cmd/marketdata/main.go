@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-    router := NewRouter()
+    router := marketdata.NewRouter()
 
     log.Fatal(http.ListenAndServe(":8080", router))
 }
